@@ -4,7 +4,7 @@ Organize your Downloads, Documents, or any folder with ease!
 
 ~ Cross-platform support (Windows, macOS, Linux)
 
-~ Installation
+#~ Installation
 Prerequisites
 
 Node.js (v14 or higher)
