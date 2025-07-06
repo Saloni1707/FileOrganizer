@@ -1,2 +1,10 @@
-./node_modules
-# Ignore build output   
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output (add any build folders you use, e.g., dist, build)
+dist/
+build/
+
+# Optionally ignore environment files and logs
+.env
+*.log
