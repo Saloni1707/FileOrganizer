@@ -23,10 +23,10 @@ bashgit clone https://github.com/your-username/file-organizer-cli.git
 cd file-organizer-cli
 
 Install dependencies:
-npm install
+bashnpm install
 
 Make the CLI file executable:
-chmod +x index.js
+bashchmod +x index.js
 
 Link the CLI globally so you can run file-organizer from anywhere:
-npm link
+bashnpm link
