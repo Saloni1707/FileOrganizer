@@ -30,22 +30,22 @@ Link the CLI globally so you can run file-organizer from anywhere:
 ```bash
 npm link
 ```
-Now in your root directory run these commands 
+<h3>Now in your root directory run these commands </h3>
 
-##Core Commands:
+<h4>Core Commands:</h4>
 ```bash
 file-organizer organize -d ~/Downloads    # Organize files in specific directory
 file-organizer downloads                  # Quick organize Downloads folder
 file-organizer watch -d ~/Downloads       # Auto-organize new files as they appear
 ```
-##Rule Management:
+<h4>Rule Management:</h4>
 ```bash
 file-organizer rules                      # List all organization rules
 file-organizer add-rule                   # Add new rule (interactive)
 file-organizer remove-rule <id>           # Delete rule by ID
 file-organizer toggle-rule <id>           # Enable/disable rule by ID
 ```
-##Utility:
+<h4>Utility:</h4>
 ```bash
 file-organizer config                     # Show config file location
 file-organizer --help                     # Show all commands
