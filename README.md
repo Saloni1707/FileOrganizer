@@ -17,6 +17,7 @@ Node.js (v14 or higher)
 npm or yarn
 
 Steps
+```bash
 
 Clone this repository:
 bashgit clone https://github.com/your-username/file-organizer-cli.git
@@ -30,3 +31,4 @@ bashchmod +x index.js
 
 Link the CLI globally so you can run file-organizer from anywhere:
 bashnpm link
+```
