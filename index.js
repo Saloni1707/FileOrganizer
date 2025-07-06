@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-//This is a File organiser CLI tool that organises files in a directory based on their extensions.
-//Install with: npm install -g .
-
-
 const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto'); //here we calc file hash to detect duplicates
