@@ -34,21 +34,21 @@ npm link
 
 ##Core Commands:
 ```bash
-file-organizer organize -d ~/Downloads    # Organize files in specific directory
-file-organizer downloads                  # Quick organize Downloads folder
-file-organizer watch -d ~/Downloads       # Auto-organize new files as they appear
+file-organizer organize -d ~/Downloads    
+file-organizer downloads                  
+file-organizer watch -d ~/Downloads      
 ```
 ##Rule Management:
 ```bash
-file-organizer rules                      # List all organization rules
-file-organizer add-rule                   # Add new rule (interactive)
-file-organizer remove-rule <id>           # Delete rule by ID
-file-organizer toggle-rule <id>           # Enable/disable rule by ID
+file-organizer rules                     
+file-organizer add-rule                  
+file-organizer remove-rule <id>          
+file-organizer toggle-rule <id>          
 ```
 ##Utility:
 ```bash
-file-organizer config                     # Show config file location
-file-organizer --help                     # Show all commands
-file-organizer <command> --help           # Help for specific command
+file-organizer config                     
+file-organizer --help                     
+file-organizer <command> --help          
 ```
 
