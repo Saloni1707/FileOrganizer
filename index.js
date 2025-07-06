@@ -2,17 +2,17 @@
 
 //This is a File organiser CLI tool that organises files in a directory based on their extensions.
 //Install with: npm install -g .
-//Run with: file-organizer [command] [options]
+
 
 const fs = require('fs').promises;
 const path = require('path');
 const crypto = require('crypto'); //here we calc file hash to detect duplicates
 const os = require('os'); //get the systems info like home directory
-const {program} = require('commander'); //here we build the cli interface
-const inquirer = require('inquirer'); //interactive cli prompts
-const chalk = require('chalk');   //colorful cli prompts
-const chokidar = require('chokidar'); //file watcher to monitor changes in directories
-const {oraPromise} = require('ora'); //create a terminal spinner here - updated for v8+
+const {program} = require('commander'); 
+const inquirer = require('inquirer'); 
+const chalk = require('chalk');   
+const chokidar = require('chokidar');
+const {oraPromise} = require('ora'); 
 const Table = require('cli-table3'); //cute tables in terminal
 
 
@@ -22,10 +22,10 @@ class FileOrganizer {
     constructor() {
         this.configDir = path.join(os.homedir(), '.file-organizer-cli');
         this.configFile = path.join(this.configDir, 'config.json');
-        this.rules = []; //here we store the custom rules for file organization
+        this.rules = []; 
         this.duplicateHashes = new Map(); //here we initialize a map to store duplicate file hashes
-        this.processedFiles = []; //here we store the files that have been processed
-        this.watchers = new Map(); //initialize a map to store watchers for our directories
+        this.processedFiles = []; 
+        this.watchers = new Map(); 
 
         this.init();
     }
@@ -525,7 +525,7 @@ program
         console.log(chalk.blue('Configuration directory:'), organizer.configDir);
     });
 
-// Show help if no command is provided
+// Some help commands
 if (process.argv.length === 2) {
     program.outputHelp();
 }
