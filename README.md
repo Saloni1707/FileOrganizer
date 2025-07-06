@@ -1,10 +1,10 @@
-📁 File Organizer CLI
+📁 File Organizer CLI ~
 A powerful command-line tool to automatically organize your files with customizable rules.
 Organize your Downloads, Documents, or any folder with ease!
 
-🌍 Cross-platform support (Windows, macOS, Linux)
+~ Cross-platform support (Windows, macOS, Linux)
 
-📦 Installation
+~ Installation
 Prerequisites
 
 Node.js (v14 or higher)
